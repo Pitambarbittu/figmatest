@@ -1,0 +1,207 @@
+/* table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  } */
+
+  table.roundedCorners { 
+    border: 1px solid #ECECEC;
+    border-radius: 4px; 
+    border-spacing: 0;
+
+    }
+  table.roundedCorners td, 
+  table.roundedCorners th { 
+    border-bottom: 1px solid #ECECEC;
+    color:  #3D404B;
+    padding: 10px; 
+    }
+
+    table.roundedCorners th {
+        font-size: 12px;
+        font-weight: 700;
+        color: #3D404B;
+
+    }
+
+    table.roundedCorners td {
+        font-size: 11px;
+        font-weight: 600;
+        color: #3D404B;
+        padding: 4px 8px;
+        height: 32px;
+        text-align:start;
+        
+    }
+
+    .btnp{
+        display: flex;
+        color: #4958A6;
+        font-size: 16px;
+        font-weight: 600;
+        align-items: center;
+        
+    }
+
+    .btnp2{
+        color:  #0F61FE;
+        font-size: 12px;
+        font-weight: 600;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .active1{
+      border: none;
+      border-radius: 4px;
+      background: rgba(57, 121, 229, 0.10);
+      padding: 4px;
+    }
+
+    .active2{
+        border: none;
+        border-radius: 4px;
+        background: rgba(57, 229, 178, 0.10);
+        padding: 4px;
+        
+    }
+
+
+
+
+    .progress-bar {
+        height: 8px;
+        width: 900px;
+        bottom: 21em;
+        border-radius: 16px;
+        display: flex;
+        overflow: hidden;
+        margin-bottom: 16px;
+        margin-top: 8px;
+      }
+      
+      .progress-bar-fill-1 {
+        width: 669px;
+        background: #4282DB;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      }
+      
+      .progress-bar-fill-2 {
+        width: 91px;
+        background: #FCD27E;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      
+      }
+      
+      .progress-bar-fill-3 {
+        width: 138px;
+        border-radius: 15px 30px 30px 5px;
+        background: #EBEBEB;
+        box-sizing: border-box;
+        border-right: 1px solid #EBEBEB;
+      }
+ 
+ 
+td{
+
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+      .progress-f {
+        height: 4px;
+        width: 449px;
+        bottom: 21em;
+        border-radius: 16px;
+        display: flex; 
+        overflow: hidden;
+        margin-bottom: 16px;
+        margin-top: 15px;
+       
+      }
+      
+      .progress-bar-fill-1-f {
+        width: 249px;
+        background: #4282DB;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      }
+      
+      .progress-bar-fill-2-f {
+        width: 48px;
+        background: #FCD27E;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      
+      }
+      
+      .progress-bar-fill-3-f {
+        width: 150px;
+        border-radius: 15px 30px 30px 5px;
+        background: #EBEBEB;
+        box-sizing: border-box;
+        border-right: 1px solid #EBEBEB;
+      }
+
+      .progress-second-table {
+        height: 4px;
+        width: 848px;
+        bottom: 21em;
+        border-radius: 16px;
+        display: flex; 
+        overflow: hidden;
+        margin-bottom: 16px;
+        margin-top: 15px;
+       
+      }
+      
+      .progress-second-bar-fill-1-f {
+        width: 540px;
+        background: #4282DB;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      }
+      
+      .progress-second-bar-fill-2-f {
+        width: 48px;
+        background: #FCD27E;
+        box-sizing: border-box;
+        border-right: 1px solid white;
+      
+      }
+      
+      .progress-second-bar-fill-3-f {
+        width: 150px;
+        border-radius: 15px 30px 30px 5px;
+        background: #EBEBEB;
+        box-sizing: border-box;
+        border-right: 1px solid #EBEBEB;
+      }
+
+
+
+
+      .colorful-bullet {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      
+      .green {
+        background-color: #5BAF76;
+      }
+      
+      .yellow {
+        margin-left: 2px;
+        background-color: #F6D662;
+      }
+      
+      .grey {
+        margin-left: 2px;
+        background-color: #D9D9D9;
+      }
